@@ -1,13 +1,13 @@
 {
-  "name": "Key Socket Media Keys",
-  "version": "0.8.2",
+  "name": "Media Keys (extended Key Socket)",
+  "version": "0.1.0",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
   "description": "Control your favorite web-based music player with your keyboard's media keys",
-  "homepage_url": "https://github.com/borismus/keysocket",
+  "homepage_url": "https://github.com/meganedesigns/keysocket",
   "permissions": ["tabs", "contextMenus"],
   "manifest_version": 2,
   "commands": {
@@ -135,6 +135,10 @@
     {
       "matches": ["*://*.livestream.com/*"],
       "js": ["shared.js", "keysocket-livestream.js"]
+    },
+    {
+      "matches": ["*://*.laracasts.com/*", "*://*.testdrivenlaravel.com/*","*://*.adamwathan.me/*","*://*.serversforhackers.com/*"],
+      "js": ["shared.js", "keysocket-laracasts.js"]
     },
     {
       "matches": ["*://*.mixcloud.com/*"],
