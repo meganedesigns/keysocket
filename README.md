@@ -22,6 +22,7 @@ when you're listening to music on various streaming websites.
    * Jamstash
    * Jango.com
    * JB Hi-Fi Now
+   * Laracasts
    * Livestream.com
    * Mixcloud
    * Music Choice
@@ -43,6 +44,7 @@ when you're listening to music on various streaming websites.
    * Rdio
    * Relax-Hub.com
    * Saavn.com
+   * serversforhackers.com
    * Slacker
    * Sirius XM Radio
    * SomaFM
@@ -54,6 +56,7 @@ when you're listening to music on various streaming websites.
    * Subsonic (and Madsonic)
    * Superplayer.fm
    * Synology Audio Station v.5
+   * testdrivenlaravel.com
    * thesixtyone
    * Tidal
    * Tracksflow.com
@@ -69,11 +72,17 @@ when you're listening to music on various streaming websites.
 
 # Usage
 
-1. Install extension from the [chrome web store][crx].
-2. Edit the `Keyboard shortcuts` to give Keysocket 'Global' permissions
+1. Download or clone this repo locally
+2. Open a browser tab to [chrome://extensions](chrome://extensions)
+3. Click “Developer mode” in the top right
+4. Click “Load unpacked extension…” and select the extension’s directory
+5. Your extension should now appear at the top of the list
+6. Edit the `Keyboard shortcuts` to give Keysocket 'Global' permissions
     * Open a browser tab to [chrome://extensions](chrome://extensions)
     * Scroll to the bottom & click `Keyboard shortcuts`
     * Find `Keysocket Media Keys` and change each desired key to `Global`
+    
+*Note: After updating the extension with new supported sites, you will need to return to [chrome://extensions](chrome://extensions) and reload the page. Chrome will reload your extension.*
 
 # API
 
