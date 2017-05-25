@@ -74,8 +74,8 @@ when you're listening to music on various streaming websites.
 
 1. Download or clone this repo locally
 2. Open a browser tab to [chrome://extensions](chrome://extensions)
-3. Click “Developer mode” in the top right
-4. Click “Load unpacked extension…” and select the extension’s directory
+3. Click `Developer mode` in the top right
+4. Click `Load unpacked extension…` and select the extension’s directory
 5. Your extension should now appear at the top of the list
 6. Edit the `Keyboard shortcuts` to give Keysocket 'Global' permissions
     * Open a browser tab to [chrome://extensions](chrome://extensions)
